@@ -13,7 +13,7 @@ const App = () => {
     // destructuring data
     const {input, type} = data;
 
-    // if input not empty string
+    // if input not empty string / ""
     if (input !== '') {
       // splt and looping type transform as array
       const arrayOfType = type.split(",");
